@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<!-- HTML5 Mobile Boilerplate -->
+<!--[if IEMobile 7]><html class="no-js iem7"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>CloudApp for Android</title>
+	<meta name="description" content="This is the Responsive Grid System, a quick, easy and flexible way to create a responsive web site.">
+	<meta name="keywords" content="responsive, grid, system, web design">
+
+	<meta name="author" content="www.invaders.io">
+
+	<meta http-equiv="cleartype" content="on">
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- Responsive and mobile friendly stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/responsivegridsystem.css" media="all">
+	<link rel="stylesheet" href="css/col.css" media="all">
+	<link rel="stylesheet" href="css/2cols.css" media="all">
+	<link rel="stylesheet" href="css/base.css" media="all">
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,700,900' rel='stylesheet' type='text/css'>
+	<!-- Responsive Stylesheets -->
+	<link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="css/1024.css">
+	<link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="css/768.css">
+	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/480.css">
+	<link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+
+	<script src="js/modernizr-2.5.3-min.js"></script>
+	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type='text/javascript' src="http://jackrugile.com/jrumble/js/jquery.jrumble.1.3.min.js"></script>
+	<script type='text/javascript'>
+	$(window).load(function(){
+	$('#change_opacity').jrumble({
+	x: 1,
+	y: 1,
+	rotation: 1
+	});
+
+	$('#change_opacity').hover(function () {
+	    $(this).trigger('startRumble');
+	}, function () {
+	    $(this).trigger('stopRumble');
+	});
+	});
+	</script>
+
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+
+	<!--[if (lt IE 9) & (!IEMobile)]>
+	<script src="js/selectivizr-min.js"></script>
+	<![endif]-->
+
+
+	<!-- More Scripts-->
+	<script src="js/responsivegridsystem.js"></script>
+
+</head>
+
+<body>
+
+<div id="skiptomain"><a href="#maincontent">skip to main content</a></div>
+
+<div id="wrapper">
+	<div id="maincontentcontainer">
+		<div id="maincontent">
+
+			<div class="section group example">
+				<div class="col span_1_of_2">
+					<div id="appinfo">
+						<div id="logo">
+							<img src="images/logo.png">
+						</div>
+						<span class="tagline">CloudApp for Android client.</span>
+						<p class="textcenter"> Lorizzle fizzle dolizzle sit fo shizzle, da bomb adipiscing sizzle. Nullam gangsta velizzle, shizzlin dizzle phat, sure quizzle, own yo' mofo, arcu. Pellentesque cool fo shizzle mah nizzle fo rizzle, mah home g-dizzle. Sed boom shackalack.</p>
+						  <div id="playstore" >
+						  	<a href="https://play.google.com/store/search?q=pub:Invaders">
+						  	<img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_60.png" />
+						  	</a>
+						  </div>
+						</div>
+					</div>
+				<div class="col span_1_of_2">
+				<div id="screenshot">
+					<img class="resize" src="images/phone_login.png">
+				</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<footer>
+	<div id="footercenter">
+		<img id="change_opacity" src="images/400_invaders.png">
+	</div>
+</footer>
+</body>
+</html>

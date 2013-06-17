@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- HTML5 Mobile Boilerplate -->
+<!--[if IEMobile 7]><html class="no-js iem7"><![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+
+<!-- HTML5 Boilerplate -->
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
+
+<head>
+
+	<meta charset="utf-8">
+	<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+	<title>Invaders</title>
+	<meta name="description" content="We are Invaders. We like to make simple and useful applications.">
+	<meta name="keywords" content="invaders, applications, android, ios, mobile apps">
+
+	<meta name="author" content="www.invaders.io">
+
+	<meta http-equiv="cleartype" content="on">
+
+	<link rel="shortcut icon" href="images/favicon.ico">
+
+	<!-- Responsive and mobile friendly stuff -->
+	<meta name="HandheldFriendly" content="True">
+	<meta name="MobileOptimized" content="320">
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/html5reset.css" media="all">
+	<link rel="stylesheet" href="css/responsive.css" media="all">
+	<link rel="stylesheet" href="css/col.css" media="all">
+	<link rel="stylesheet" href="css/2cols.css" media="all">
+	<link rel="stylesheet" href="css/base.css" media="all">
+	<link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic' rel='stylesheet' type='text/css'>
+	<!-- Responsive Stylesheets -->
+	<link rel="stylesheet" media="only screen and (max-width: 1024px) and (min-width: 769px)" href="css/1024.css">
+	<link rel="stylesheet" media="only screen and (max-width: 768px) and (min-width: 481px)" href="css/768.css">
+	<link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/480.css">
+	<!-- Javascript -->
+	<!--[if (lt IE 9) & (!IEMobile)]>
+	<script src="js/selectivizr-min.js"></script>
+	<![endif]-->
+	<script src="js/modernizr-2.5.3-min.js"></script>
+	<script type='text/javascript' src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/responsivegridsystem.js"></script>
+	<script type='text/javascript' src="http://jackrugile.com/jrumble/js/jquery.jrumble.1.3.min.js"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-1.7.2.min.js"><\/script>')</script>
+	<script type='text/javascript'>
+	$(window).load(function(){
+	$('#logo').jrumble({
+		x: 1,
+		y: 1,
+		rotation: 1,
+		speed: 100
+	});
+
+	$('#logo').hover(function () {
+	    $(this).trigger('startRumble');
+		}, function () {
+	    $(this).trigger('stopRumble');
+		});
+	});
+	</script>
+	<script type="text/javascript">
+	   $(window).bind("load", function() {
+	    var docHeight = $(window).height();
+	    var footerHeight = $('#footercontainer').height();
+	    var footerTop = $('#footercontainer').position().top + footerHeight;
+
+	    if (footerTop < docHeight) {
+	     $('#footercontainer').css('margin-top', 10 + (docHeight - footerTop) + 'px');
+	    }
+	   });
+	</script>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-41601077-2', 'invaders.io');
+	  ga('send', 'pageview');
+
+	</script>
+
+</head>
+
+<body>
+
+	<div id="skiptomain"><a href="#maincontent">skip to main content</a></div>
+
+	<div id="wrapper">
+		<div id="headcontainer">
+			<header>
+			<div><img id="logo" src="images/logo.png" /></div>
+			</header>
+		</div>
+		<div id="maincontentcontainer">
+			<div id="maincontent">
+
+				<div class="section group">
+				<h2>We are Invaders. We like to make simple and useful applications.</h2>
+				</div>
+
+				<div class="section group">
+					<div class="col span_1_of_2">
+					<h3><a href="http://invaders.io">CloudApp for Android</a></h3>
+					<p>The first good looking and simple to use CloudApp Android client. Completely free to download from Play Store, and we mean free. (Coming Soon)</p>
+					</div>
+					<div class="col span_1_of_2">
+					<h3><a href="https://github.com/invaders/CloudApp-Backup">CloudApp Exporter</a></h3>
+					<p>Backup your drops from CloudApp in one easy Zip file. Open source and on <a href="https://github.com/invaders/CloudApp-Backup">GitHub</a>.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="footercontainer">
+			<footer class="group">
+				<div id="smallprint">
+					Invaders.
+				</div>
+			</footer>
+		</div>
+	</div>
+
+</body>
+
+</html>

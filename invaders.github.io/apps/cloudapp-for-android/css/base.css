@@ -1,0 +1,48 @@
+div#logo {
+  text-align: center;
+}
+
+.tagline {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+  letter-spacing: -0.05em ;
+  color: #1f1f1f;
+  display: block;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+div#playstore {
+  text-align: center;
+}
+
+.textcenter {
+  text-align: center;
+  width: 80%;
+  margin: 0px auto 0px auto;
+  padding-bottom: 10px;
+}
+
+img.resize{
+    width:70%;
+    height: auto;
+    min-width: 300px;
+    min-height: auto;
+}
+
+div#screenshot {
+  text-align: center;
+  margin: 0px auto 0px auto;
+}
+
+div#appinfo {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+div#footercenter {
+    text-align: center;
+    margin:0 auto;
+}
